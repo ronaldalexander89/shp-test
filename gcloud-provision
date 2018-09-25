@@ -1,3 +1,5 @@
+# using gcloud terminal, initialize a compute engine using below commands
+
 gcloud compute instances create "singapore-1" \
 --image-family "centos-7" \
 --image-project "centos-cloud" \
