@@ -1,0 +1,5 @@
+gcloud compute instances create "singapore-1" \
+--image-family "centos-7" \
+--image-project "centos-cloud" \
+--zone "asia-southeast1-a" \
+--machine-type "f1-micro"
